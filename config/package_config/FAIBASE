@@ -1,6 +1,6 @@
 PACKAGES aptitude
 fai-client
-cfengine2
+#cfengine2
 cron
 debconf-utils
 file
@@ -17,7 +17,10 @@ strace
 tcsh
 time
 procinfo
-exim4
+#exim4
+postfix
+vim
+ruby1.9.1
 eject
 locales
 console-common

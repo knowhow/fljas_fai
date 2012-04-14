@@ -6,6 +6,8 @@
 case $HOSTNAME in
     faiserver)
 	echo "FAIBASE DEMO FAISERVER" ;;
+    ldesk*)
+        echo "FAIBASE LXDE DHCPC" ;;
     demohost)
 	echo "FAIBASE DHCPC DEMO" ;;
     gnomehost)

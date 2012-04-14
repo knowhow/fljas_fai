@@ -1,0 +1,8 @@
+disk_config sda bootable:1
+primary   /boot    500   ext3   rw  primary
+primary   -        6144-  -      -
+
+disk_config lvm
+vg                  bringout sda1
+bringout-_swap      swap     2048  swap    sw
+bringout-_root      /        4096- ext4    rw
