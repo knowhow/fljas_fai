@@ -1,0 +1,10 @@
+PACKAGES aptitude
+language-pack-bs
+
+#PACKAGES aptitude GNOME
+#iceweasel-l10n-de icedove-l10n-de
+
+PACKAGES aptitude LXDE
+libreoffice-writer
+libreoffice-calc
+
